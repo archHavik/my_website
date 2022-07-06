@@ -1,0 +1,8 @@
+.navBar div {
+	border:1px solid black;
+}
+
+.navBar li {
+	display: inline;
+	margin:2px;
+}

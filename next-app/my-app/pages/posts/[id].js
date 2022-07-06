@@ -3,6 +3,7 @@ import Layout from '../../components/layout'
 import Head from 'next/head'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
+import { parseISO, format } from 'date-fns'
 
 export default function Post({ postData }) {
   return (
