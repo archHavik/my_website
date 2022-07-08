@@ -8,11 +8,7 @@ import { getSortedPostsData } from '../lib/posts'
 
 export default function Home({ allPostsData }) {
   return (
-
     <Layout home>
-			<script id="scroll-bottom">
-				{`$(document).ready(function() {window.scrollTo(0, document.body.scrollHeight);})`}
-			</script>
       <Head>
         <title>{siteTitle}</title>
 			</Head>
@@ -21,7 +17,7 @@ export default function Home({ allPostsData }) {
 				<p>Thanks for coming to my website! I hope you enjoy learning about Me.</p>
 			</section>
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-				<h2 className={utilStyles.headingLg}>Welcome! Explore?</h2>
+				<h2 className={utilStyles.headingLg}>Blog</h2>
 			</section>
 		</Layout>
 	)

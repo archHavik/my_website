@@ -9,7 +9,7 @@ export const siteTitle = 'My Site'
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -29,7 +29,9 @@ export default function Layout({ children, home }) {
 				<Navbar>
 				</Navbar>
       </header>
-      <main>{children}</main>
+    	<div className={styles.container}>
+     	 <main>{children}</main>
+			</div>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">

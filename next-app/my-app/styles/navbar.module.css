@@ -1,8 +1,22 @@
-.navBar div {
+.navBar {
 	border:1px solid black;
 }
 
 .navBar li {
 	display: inline;
-	margin:2px;
+	margin-left: 1rem;
+	padding: .4rem;
+	border-radius: 30px;
+	background-color: blue;
+	color: white;
+}
+
+.navBar li:hover {
+	background-color: purple;
+}
+
+.navBar ul {
+	margin-top: 1rem;
+	padding: 0;
+	padding-left: 3rem;
 }
