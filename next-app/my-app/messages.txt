@@ -1,0 +1,32 @@
+Visit my other pages to find about more about me!
+
+
+***ImageSection***
+
+
+-Learner: If I don't know something, I know where I can find answers, and I learn very quickly!
+-Physical hardware: I have built my own PC, and have experience with server and networking racks. I also dabble with electronics as one of my hobbies.
+-Red teaming: Although I'm still learning the basics, I'm getting familiar with general topics, and I can run most basic scripts like nmap and gobuster.
+-Systems Administration: I'm very familiar and comfortable with LAMP stacks, *nux and windows, and general network and security.
+-Programming: Obviously I can handle html, javascript, and css (This website is built with nextjs). I also know python, java, and c/c++/c#.
+
+What are my skillsets?
+
+***ImageSection***
+
+
+-Student: I currently attend Southern Utah University.
+-Hacker: I'm majoring in Cybersecurity at SUU, and I hope to build a career on that very thing.
+-Hobbyist: I spend a lot of my free time tinkering with technology. I do everything from building PC's to small motor repair to robotics.
+-Believer: I'm a religious man. I"m a member of the church of Jesus Christ of Latter Day Saints.
+-Worker: I believe in doing a job efficiently, and correctly. You can count on me to get it done right!
+-Lover: Spending time with my wife and family is what I dedicate my life to, and I hope to have kids one day.
+
+Who am I?
+
+Hi! I'm Hayden Robbins, and I'm a web developer/hacker/hobbyist. Thanks for visiting my webpage! I hope you enjoy learning about me.
+
+
+***ImageSection***
+
+Welcome! Explore?

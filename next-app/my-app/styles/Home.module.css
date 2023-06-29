@@ -1,10 +1,10 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 80%;
+	color: white;
+	background-image: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.75), rgba(0,0,138,1), rgba(135,206,235,1)), url("/images/stars.webp");
 }
 
 .main {
@@ -119,4 +119,97 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.imagesection {
+	position: relative;
+	width: 100%;
+	height: 150vh;
+	margin-top: 5rem;
+}
+
+.spaceship {
+	position: fixed;
+	right: 11.5rem; 
+	bottom: 11.5rem;
+}
+
+.launchpad {
+	position: absolute;
+	bottom: 9rem;
+	right: 4rem
+}
+
+.dustcloud {
+	opacity: 0;
+	position: absolute;
+	bottom: 6rem;
+	right: 0rem;
+}
+
+.ground {
+	width: 100%;
+	background: green;
+	height: 13rem;
+	position: absolute;
+	bottom: 0rem;
+	right: 0rem;
+}
+
+.flame {
+	position: fixed;
+	bottom: 4rem;
+	right: 10.5rem;
+}
+
+.cloud1 {
+	position: absolute;
+	bottom: 73rem;
+	right: 10.5rem;
+}
+
+.cloud2 {
+	position: absolute;
+	bottom: 67rem;
+	right: 5rem;
+}
+
+.cloud3 {
+	position: absolute;
+	bottom: 45rem;
+	left: 20rem;
+}
+
+.cloud4 {
+	position: absolute;
+	bottom: 50rem;
+	left: 25rem;
+}
+
+.cloud5 {
+	position: absolute;
+	bottom: 47rem;
+	left: 35rem;
+}
+
+.cloud6 {
+	position: absolute;
+	bottom: 63rem;
+	left: 0rem;
+}
+
+.cloud7 {
+	position: absolute;
+	bottom: 60rem;
+	left: 7rem;
+}
+
+.textsection {
+	width: 50%;
+	margin: auto;
+	padding: 0 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

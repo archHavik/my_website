@@ -1,13 +1,14 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
+import styles from '../styles/layout.module.css'
 import utilStyles from '../styles/utils.module.css'
+import homeStyles from '../styles/home.module.css'
 import Link from 'next/link'
 import Navbar from './navbar.js'
 
 const name = 'Hayden Robbins'
 export const siteTitle = 'My Site'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, color }) {
   return (
     <div>
       <Head>
@@ -26,19 +27,12 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-				<Navbar>
-				</Navbar>
+			<Navbar color>
+			</Navbar>
       </header>
-    	<div className={styles.container}>
-     	 <main>{children}</main>
-			</div>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+    	<div>
+			<main>{children}</main>
+		</div>
     </div>
   )
 }

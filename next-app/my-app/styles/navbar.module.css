@@ -1,18 +1,23 @@
 .navBar {
 	border:1px solid black;
+	background: black;
 }
 
 .navBar li {
 	display: inline;
-	margin-left: 1rem;
-	padding: .4rem;
-	border-radius: 30px;
-	background-color: blue;
-	color: white;
+	padding: 1rem;
+	background: black;
+	color: lightgray;
 }
 
-.navBar li:hover {
-	background-color: purple;
+.navBar li:hover, .navBar li:visited, .navBar li:link, .navBar li:active{
+	background: #321E1E;
+}
+
+.navBar a, .navBar a:hover{
+	background: none;
+	color: none;
+	text-decoration: none;
 }
 
 .navBar ul {
