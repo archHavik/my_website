@@ -125,11 +125,6 @@ export default function Home() {
 					</section>
 				</div>
 				<div className={homeStyles.imagesection}>
-					<Image className={homeStyles.flame}
-						src="/images/flames.gif"
-						width={75}
-						height={150}
-					/>
 					<div className={homeStyles.ground}/>
 					
 					<Image className={homeStyles.road}
@@ -161,7 +156,12 @@ export default function Home() {
 						src="/images/launchpad.png"
 						width={350}
 						height={350}
-					/>					
+					/>
+					<Image className={homeStyles.flame}
+						src="/images/flames.gif"
+						width={75}
+						height={150}
+					/>
 					<Image className={homeStyles.spaceship}
 						src="/images/Spaceship.png"
 						width={40}
