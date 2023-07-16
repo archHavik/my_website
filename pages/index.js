@@ -9,10 +9,22 @@ import homeStyles from '../styles/home.module.css'
 import { useEffect, useState, useRef } from "react";
 import styled from "styled-components";
 
-function Dustcloud() {
+const Div = styled.div`
+	opacity: ${({ animate }) => animate ? 1 : 0};
+	transition: opacity .5s;
+	`;
+	
+const Ufodiv = styled.div`
+	transform: translateX(${({ animate }) => animate ? "-20rem" : 0});
+	transition: transform 1s;
+	`;
+
+function Animate(props) {
 	
 	const[show, setShow] = useState(false);
+	const[move, setMove] = useState(false);
 	const refRef = useRef(null);
+	const refRef1 = useRef(null);
 	
 	useEffect(() => {
 		window.scrollTo(0, document.body.scrollHeight);
@@ -20,38 +32,55 @@ function Dustcloud() {
 		const botPos = window.scrollY + window.innerHeight;
 
 		const onScroll = () => {
-			const scrollPos = window.scrollY + window.innerHeight;
+			
+			const scrollPos = window.scrollY + window.innerHeight;			
 
 			// Element scrolled above
-			if (botPos > scrollPos) {				
+			if (botPos > scrollPos) {
 				setShow(true);
 			}
 			// Scrolled to or past
 			else if (botPos <= scrollPos) {
 				setShow(false);
 			}
+			
+			if (window.scrollY <= 250) {
+				setMove(true);
+			}
+			else {
+				setMove(false);
+			}
 		};
 
-		window.addEventListener("scroll", onScroll);
-		return () => window.removeEventListener("scroll", onScroll);
+		window.addEventListener('scroll', onScroll);
+		return() => window.removeEventListener('scroll', onScroll);
 	}, []);
-		
-	return(
-		<Div animate={show} ref={refRef} className={homeStyles.dustcloud}>
-			<Image
-				id='dustcloud'
-				src="/images/dustcloud.png"
-				width={450}
-				height={350}
-			/>
-		</Div>
-	);
+	
+	if (props.ufo){
+		return(
+			<Ufodiv animate={move} ref={refRef1} className={homeStyles.ufo}>
+				<Image
+					id='ufo'
+					src="/images/ufo1.png"
+					width={40}
+					height={30}
+				/>
+			</Ufodiv>
+		);
+	}
+	else {
+		return (
+			<Div animate={show} ref={refRef} className={homeStyles.dustcloud}>
+				<Image
+					id='dustcloud'
+					src="/images/dustcloud.png"
+					width={450}
+					height={350}
+				/>
+			</Div>
+		);
+	}
 }
-
-const Div = styled.div`
-	opacity: ${({ animate }) => animate ? 1 : 0};
-	transition: opacity .5s;
-	`;
 
 export default function Home() {
 
@@ -64,6 +93,7 @@ export default function Home() {
 				<div className={homeStyles.starsection}>
 					<h2 className={`${utilStyles.headingLg} ${utilStyles.horizCenter}`}>Visit my other pages to find out more about me!</h2>
 					<br/><br/><br/>
+					<Animate ufo={true}/>
 					<div className={`${homeStyles.imagesection}  ${homeStyles.textsection}`}>
 						<section className={utilStyles.headingMd}>
 							<ul>
@@ -95,20 +125,38 @@ export default function Home() {
 					</section>
 				</div>
 				<div className={homeStyles.imagesection}>
-					<section className={`${utilStyles.headingMd} ${homeStyles.textsection}`}>
-						<h2 className={utilStyles.headingLg}>Welcome! Explore?</h2>
-					</section>
-					<Image className={homeStyles.cloud2}
-						src="/images/cloud1.png"
-						width={200}
-						height={150}
-					/>
 					<Image className={homeStyles.flame}
 						src="/images/flames.gif"
 						width={75}
 						height={150}
 					/>
 					<div className={homeStyles.ground}/>
+					
+					<Image className={homeStyles.road}
+						src="/images/road.png"
+						width={1000}
+						height={25}
+					/>
+					<Image className={homeStyles.cloud9}
+						src="/images/cloud3.png"
+						width={200}
+						height={150}
+					/>
+					<Image className={homeStyles.welcome}
+						src="/images/welcome2.png"
+						width={1000}
+						height={400}
+					/>
+					<Image className={homeStyles.cloud2}
+						src="/images/cloud3.png"
+						width={400}
+						height={300}
+					/>										
+					<Image className={homeStyles.building}
+						src="/images/building1.png"
+						width={450}
+						height={450}
+					/>
 					<Image className={homeStyles.launchpad}
 						src="/images/launchpad.png"
 						width={350}
@@ -120,36 +168,41 @@ export default function Home() {
 						height={200}
 					/>
 					<Image className={homeStyles.cloud1}
-						src="/images/cloud1.png"
-						width={200}
-						height={150}
+						src="/images/cloud2.png"
+						width={600}
+						height={450}
 					/>
 					<Image className={homeStyles.cloud3}
-						src="/images/cloud1.png"
-						width={200}
-						height={150}
+						src="/images/cloud2.png"
+						width={400}
+						height={300}
 					/>
 					<Image className={homeStyles.cloud4}
-						src="/images/cloud1.png"
-						width={200}
-						height={150}
+						src="/images/cloud3.png"
+						width={400}
+						height={300}
 					/>
 					<Image className={homeStyles.cloud5}
-						src="/images/cloud1.png"
-						width={200}
-						height={150}
+						src="/images/cloud4.png"
+						width={400}
+						height={300}
 					/>
 					<Image className={homeStyles.cloud6}
-						src="/images/cloud1.png"
-						width={200}
-						height={150}
+						src="/images/cloud4.png"
+						width={600}
+						height={450}
 					/>
 					<Image className={homeStyles.cloud7}
-						src="/images/cloud1.png"
+						src="/images/cloud3.png"
+						width={300}
+						height={200}
+					/>
+					<Image className={homeStyles.cloud8}
+						src="/images/cloud4.png"
 						width={200}
 						height={150}
 					/>
-					<Dustcloud />					
+					<Animate ufo={false}/>
 				</div>
 			</div>			
 		</Layout>

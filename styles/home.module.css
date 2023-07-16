@@ -131,26 +131,32 @@
 .spaceship {
 	position: fixed;
 	right: 11.5rem; 
-	bottom: 11.5rem;
+	bottom: 5.5rem;
 }
 
 .launchpad {
 	position: absolute;
-	bottom: 9rem;
+	bottom: 3rem;
 	right: 4rem
+}
+
+.building {
+	position: absolute;
+	bottom: 2.75rem;
+	left: 12rem;
 }
 
 .dustcloud {
 	opacity: 0;
 	position: absolute;
-	bottom: 6rem;
+	bottom: .25rem;
 	right: 0rem;
 }
 
 .ground {
 	width: 100%;
 	background: green;
-	height: 13rem;
+	height: 5rem;
 	position: absolute;
 	bottom: 0rem;
 	right: 0rem;
@@ -158,14 +164,14 @@
 
 .flame {
 	position: fixed;
-	bottom: 4rem;
+	bottom: -2.25rem;
 	right: 10.5rem;
 }
 
 .cloud1 {
 	position: absolute;
-	bottom: 73rem;
-	right: 10.5rem;
+	bottom: 67rem;
+	right: 23rem;
 }
 
 .cloud2 {
@@ -183,13 +189,14 @@
 .cloud4 {
 	position: absolute;
 	bottom: 50rem;
-	left: 25rem;
+	left: 30rem;
 }
 
 .cloud5 {
 	position: absolute;
-	bottom: 47rem;
-	left: 35rem;
+	bottom: 52rem;
+	left: 55rem;
+	transform: rotate(180deg);
 }
 
 .cloud6 {
@@ -201,7 +208,37 @@
 .cloud7 {
 	position: absolute;
 	bottom: 60rem;
-	left: 7rem;
+	left: -3rem;
+}
+
+.cloud8 {
+	position: absolute;
+	bottom: 40rem;
+	right: 3rem;
+}
+
+.cloud9 {
+	position: absolute;
+	bottom: 35rem;
+	right: 20rem;
+}
+
+.ufo {
+	position: absolute;
+	top: 14rem;
+	left: 13rem;
+}
+
+.welcome {
+	position: absolute;
+	bottom: 27rem;
+	left: 25%;
+}
+
+.road {
+	position: absolute;
+	bottom: 4.5rem;
+	left: 33rem;
 }
 
 .textsection {
