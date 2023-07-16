@@ -233,6 +233,7 @@
 	position: absolute;
 	bottom: 27rem;
 	left: 25%;
+	transform: rotate(3deg);
 }
 
 .road {

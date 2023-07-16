@@ -143,7 +143,7 @@ export default function Home() {
 						height={150}
 					/>
 					<Image className={homeStyles.welcome}
-						src="/images/welcome2.png"
+						src="/images/welcome3.png"
 						width={1000}
 						height={400}
 					/>
