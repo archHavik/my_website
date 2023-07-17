@@ -131,12 +131,12 @@
 .spaceship {
 	position: fixed;
 	right: 11.5rem; 
-	bottom: 5.5rem;
+	bottom: 8.5rem;
 }
 
 .launchpad {
 	position: absolute;
-	bottom: 3rem;
+	bottom: 6rem;
 	right: 4rem
 }
 
@@ -149,14 +149,14 @@
 .dustcloud {
 	opacity: 0;
 	position: absolute;
-	bottom: .25rem;
+	bottom: 3.25rem;
 	right: 0rem;
 }
 
 .ground {
 	width: 100%;
 	background: green;
-	height: 5rem;
+	height: 10rem;
 	position: absolute;
 	bottom: 0rem;
 	right: 0rem;
@@ -164,7 +164,7 @@
 
 .flame {
 	position: fixed;
-	bottom: -2.25rem;
+	bottom: 1rem;
 	right: 10.5rem;
 }
 
@@ -188,7 +188,7 @@
 
 .cloud4 {
 	position: absolute;
-	bottom: 50rem;
+	bottom: 45rem;
 	left: 30rem;
 }
 
@@ -231,9 +231,9 @@
 
 .welcome {
 	position: absolute;
-	bottom: 27rem;
-	left: 25%;
-	transform: rotate(3deg);
+	bottom: 30rem;
+	left: 50%;
+	margin-left: -60px;
 }
 
 .road {

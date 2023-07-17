@@ -14,11 +14,12 @@ export default function hobbies() {
 				<Head>
 					<title>{siteTitle}</title>
 				</Head>
-				<section className={`${utilStyles.headingMd} ${hobbyStyles.textsection}`}>
-					<p>Hi. I'm Hayden Robbins, and I am a Programmer Engineer 1.</p>
-					<p>Thanks for coming to my website! I hope you enjoy learning about Me.</p>
-				</section>
-				<div className={hobbyStyles.imagesection}/>
+				<div>
+					<h2 className={`${utilStyles.headingLg} ${utilStyles.horizCenter}`}>Here are some of my hobbies:</h2>
+					<section className={`${hobbyStyles.textsection}`}>
+						<h3>Bowling</h3>
+					</section>
+				</div>
 			</div>
 		</Layout>
 	);

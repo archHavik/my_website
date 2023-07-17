@@ -6,17 +6,13 @@ import Link from 'next/link'
 import Navbar from './navbar.js'
 
 const name = 'Hayden Robbins'
-export const siteTitle = 'My Site'
+export const siteTitle = 'HRobbinsweb'
 
 export default function Layout({ children, color }) {
   return (
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(

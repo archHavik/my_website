@@ -110,7 +110,7 @@ export default function Home() {
 						<ul>
 							<li>Lover: Spending time with my wife and family is what I dedicate my life to, and I hope to have kids one day.</li>
 							<li>Worker: I believe in doing a job efficiently, and correctly. You can count on me to get it done right!</li>
-							<li>Believer: I'm a religious man. I"m a member of the church of Jesus Christ of Latter Day Saints.</li>
+							<li>Believer: I'm a religious man. I'm a member of the church of Jesus Christ of Latter Day Saints.</li>
 							<li>Hobbyist: I spend a lot of my free time tinkering with technology. I do everything from building PC's to small motor repair to robotics.</li>
 							<li>Hacker: I'm majoring in Cybersecurity at SUU, and I hope to build a career on that very thing.</li>
 							<li>Student: I currently attend Southern Utah University.</li>
@@ -125,38 +125,15 @@ export default function Home() {
 					</section>
 				</div>
 				<div className={homeStyles.imagesection}>
-					<Image className={homeStyles.cloud2}
-						src="/images/cloud3.png"
-						width={400}
-						height={300}
-					/>
 					<Image className={homeStyles.flame}
 						src="/images/flames.gif"
 						width={75}
 						height={150}
 					/>
 					<div className={homeStyles.ground}/>
-					
-					<Image className={homeStyles.road}
-						src="/images/road.png"
-						width={1000}
-						height={25}
-					/>
-					<Image className={homeStyles.cloud9}
-						src="/images/cloud3.png"
-						width={200}
-						height={150}
-					/>
-					<Image className={homeStyles.welcome}
-						src="/images/welcome3.png"
-						width={1000}
-						height={400}
-					/>										
-					<Image className={homeStyles.building}
-						src="/images/building1.png"
-						width={450}
-						height={450}
-					/>
+					<section className={`${utilStyles.headingMd} ${homeStyles.welcome}`}>
+						<h1 className={`${utilStyles.headingLg} ${utilStyles.horizCenter}`}>Welcome!</h1>
+					</section>
 					<Image className={homeStyles.launchpad}
 						src="/images/launchpad.png"
 						width={350}
@@ -169,38 +146,18 @@ export default function Home() {
 					/>
 					<Image className={homeStyles.cloud1}
 						src="/images/cloud2.png"
-						width={600}
-						height={450}
-					/>
-					<Image className={homeStyles.cloud3}
-						src="/images/cloud2.png"
-						width={400}
-						height={300}
+						width={200}
+						height={150}
 					/>
 					<Image className={homeStyles.cloud4}
-						src="/images/cloud3.png"
-						width={400}
-						height={300}
-					/>
-					<Image className={homeStyles.cloud5}
-						src="/images/cloud4.png"
-						width={400}
-						height={300}
-					/>
-					<Image className={homeStyles.cloud6}
-						src="/images/cloud4.png"
-						width={600}
-						height={450}
-					/>
-					<Image className={homeStyles.cloud7}
 						src="/images/cloud3.png"
 						width={300}
 						height={200}
 					/>
-					<Image className={homeStyles.cloud8}
+					<Image className={homeStyles.cloud7}
 						src="/images/cloud4.png"
-						width={200}
-						height={150}
+						width={250}
+						height={175}
 					/>
 					<Animate ufo={false}/>
 				</div>
