@@ -16,6 +16,23 @@ export default function hobbies() {
 				</Head>
 				<div>
 					<h2 className={`${utilStyles.headingLg} ${utilStyles.horizCenter}`}>Hobbies</h2>
+					<section className={`${hobbyStyles.textsection} ${hobbyStyles.tech}`}>
+						<Image
+							src="/images/car.jpg"
+							width={1200}
+							height={600}
+						/>
+						<div>
+							<h3>Technology</h3>
+							<p>I love technology. Anything from cars to electronics to robotics to aeronautics, I love learning about, building, repairing, and breaking technology. I have taken apart things to learn about them for as long as I can remember, and I am always excited to learn more about everything that drives technology in our world.
+							</p>
+						</div>
+					</section>
+					<section className={`${hobbyStyles.textsection} ${hobbyStyles.shooting}`}>
+						<h3>Long Range Shooting</h3>
+						<p>In 2019 I custom built my own AR-10 chambered in 6.5 creedmoor. I am working on getting my groupings smaller and smaller. I have theoretical knowledge of shooting, but have never actually shot past about 400 yards. I am excited to spend more time learning and actually shooting in the future.
+						</p>
+					</section>
 					<section className={`${hobbyStyles.textsection} ${hobbyStyles.bowling}`}>
 						<div>
 							<h3>Bowling</h3>
@@ -28,22 +45,17 @@ export default function hobbies() {
 							height={625}
 						/>
 					</section>
-					<section className={`${hobbyStyles.textsection} ${hobbyStyles.tech}`}>
+					<section className={`${hobbyStyles.textsection} ${hobbyStyles.mil}`}>
+						<Image
+							src="/images/spliced1.png"
+							width={1000}
+							height={800}
+						/>
 						<div>
-							<h3>Technology</h3>
-							<p>I love technology. Anything from cars to electronics to robotics to aeronautics, I love learning about, building, repairing, and breaking technology. I have taken apart things to learn about them for as long as I can remember, and I am always excited to learn more about everything that drives technology in our world.
+							<h3>Military vehicles/history</h3>
+							<p>I love learning about military vehicles. I know most about tanks and armor from WW2, but love learning about any type of vehicle. I have built scale models of vehicles for about 10 years now, and enjoy working on them in free time.
 							</p>
 						</div>
-					</section>
-					<section className={`${hobbyStyles.textsection} ${hobbyStyles.shooting}`}>
-						<h3>Long Range Shooting</h3>
-						<p>In 2019 I custom built my own AR-10 chambered in 6.5 creedmoor. I am working on getting my groupings smaller and smaller. I have theoretical knowledge of shooting, but have never actually shot past about 400 yards. I am excited to spend more time learning and actually shooting in the future.
-						</p>
-					</section>
-					<section className={`${hobbyStyles.textsection} ${hobbyStyles.mil}`}>
-						<h3>Military vehicles/history</h3>
-						<p>I love learning about military vehicles. I know most about tanks and armor from WW2, but love learning about any type of vehicle. I have built scale models of vehicles for about 10 years now, and enjoy working on them in free time.
-						</p>
 					</section>
 					<section className={`${hobbyStyles.textsection} ${hobbyStyles.airsoft}`}>
 						<h3>Airsoft</h3>

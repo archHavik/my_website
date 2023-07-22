@@ -11,7 +11,6 @@ export default function Navbar({color}) {
 			  <Link href="/"><li>Home</li></Link>
 			  <Link href="hobbies"><li>Hobbies</li></Link>
 			  <Link href="career"><li>Career</li></Link>
-			  <Link href="family"><li>Family</li></Link>
 			</ul>
     </div>
   )
