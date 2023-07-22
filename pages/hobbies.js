@@ -29,9 +29,16 @@ export default function hobbies() {
 						</div>
 					</section>
 					<section className={`${hobbyStyles.textsection} ${hobbyStyles.shooting}`}>
-						<h3>Long Range Shooting</h3>
-						<p>In 2019 I custom built my own AR-10 chambered in 6.5 creedmoor. I am working on getting my groupings smaller and smaller. I have theoretical knowledge of shooting, but have never actually shot past about 400 yards. I am excited to spend more time learning and actually shooting in the future.
-						</p>
+						<div>
+							<h3>Long Range Shooting</h3>
+							<p>In 2019 I custom built my own AR-10 chambered in 6.5 creedmoor. I am working on getting my groupings smaller and smaller. I have theoretical knowledge of shooting, but have never actually shot past about 400 yards. I am excited to spend more time learning and actually shooting in the future.
+							</p>
+						</div>
+						<Image
+							src="/images/mygun1.jpg"
+							width={1500}
+							height={500}
+						/>
 					</section>
 					<section className={`${hobbyStyles.textsection} ${hobbyStyles.bowling}`}>
 						<div>
@@ -40,9 +47,9 @@ export default function hobbies() {
 							</p>
 						</div>
 						<Image
-							src="/images/bowling.avif"
-							width={700}
-							height={625}
+							src="/images/bowling1.jpg"
+							width={900}
+							height={600}
 						/>
 					</section>
 					<section className={`${hobbyStyles.textsection} ${hobbyStyles.mil}`}>
@@ -58,9 +65,16 @@ export default function hobbies() {
 						</div>
 					</section>
 					<section className={`${hobbyStyles.textsection} ${hobbyStyles.airsoft}`}>
-						<h3>Airsoft</h3>
-						<p>This is probably my most recent hobby. Airsoft is fun with a group of friends, and it's fun to build and mod airsoft rifles. I'm still learning about it, and die more often then not, but I have a lot of fun!
-						</p>
+						<div>
+							<h3>Airsoft</h3>
+							<p>This is probably my most recent hobby. Airsoft is fun with a group of friends, and it's fun to build and mod airsoft rifles. I'm still learning about it, and die more often then not, but I have a lot of fun!
+							</p>
+						</div>
+						<Image
+							src="/images/airsoft1.jpg"
+							width={700}
+							height={500}
+						/>
 					</section>
 				</div>
 			</div>
