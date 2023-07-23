@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
-import Script from 'next/script'
-import Date from '../components/date'
 import Layout, {siteTitle} from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import hobbyStyles from '../styles/hobbies.module.css'
@@ -15,7 +12,7 @@ export default function hobbies() {
 					<title>{siteTitle}</title>
 				</Head>
 				<div>
-					<h2 className={`${utilStyles.headingLg} ${utilStyles.horizCenter}`}>Hobbies</h2>
+					<h1 className={utilStyles.horizCenter}>Hobbies</h1>
 					<section className={`${hobbyStyles.textsection} ${hobbyStyles.tech}`}>
 						<Image
 							src="/images/car.jpg"

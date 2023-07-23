@@ -1,0 +1,22 @@
+.container {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 80%;
+	background-image: url("/images/stars.webp");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container div {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.past {
+	text-align: center;
+	width: 50%;
+	background: #321E1E;
+}

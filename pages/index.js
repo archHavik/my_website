@@ -131,9 +131,6 @@ export default function Home() {
 						height={150}
 					/>
 					<div className={homeStyles.ground}/>
-					<section className={`${utilStyles.headingMd} ${homeStyles.welcome}`}>
-						<h1 className={`${utilStyles.headingLg} ${utilStyles.horizCenter}`}>Welcome!</h1>
-					</section>
 					<Image className={homeStyles.launchpad}
 						src="/images/launchpad.png"
 						width={350}
@@ -160,6 +157,7 @@ export default function Home() {
 						height={175}
 					/>
 					<Animate ufo={false}/>
+					<h1 className={homeStyles.welcome}>Welcome!</h1>
 				</div>
 			</div>			
 		</Layout>
