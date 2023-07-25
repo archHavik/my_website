@@ -138,8 +138,8 @@ export default function Home() {
 					/>
 					<Image className={homeStyles.spaceship}
 						src="/images/Spaceship.png"
-						width={40}
-						height={200}
+						width={50}
+						height={250}
 					/>
 					<Image className={homeStyles.cloud1}
 						src="/images/cloud2.png"
