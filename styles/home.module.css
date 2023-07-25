@@ -123,94 +123,94 @@
 .imagesection {
 	position: relative;
 	width: 100%;
-	height: 150vh;
+	height: 100rem;
 	margin-top: 5rem;
 }
 
 .spaceship {
-	width: 2.5vw;
-	height: 13vw;
+	width: 2.5rem;
+	height: 13rem;
 	position: fixed;
-	right: 13vw; 
-	bottom: 9.25vw;
+	right: 13rem; 
+	bottom: 9.25rem;
 }
 
 .launchpad {
-	width: 20vw;
-	height: 19vw;
+	width: 20rem;
+	height: 19rem;
 	position: absolute;
-	bottom: 7vw;
-	right: 5vw;
+	bottom: 7rem;
+	right: 5rem;
 }
 
 .dustcloud {
 	opacity: 0;
 	position: absolute;
-	bottom: 3vw;
-	right: 0vw;
+	bottom: 3rem;
+	right: 0rem;
 }
 
 .dustcloud img {
-	width: 30vw;
-	height: 23vw;
+	width: 30rem;
+	height: 23rem;
 }
 
 .ground {
 	width: 100%;
 	background: green;
-	height: 11vw;
+	height: 11rem;
 	position: absolute;
 	bottom: 0rem;
 	right: 0rem;
 }
 
 .flame {
-	width: 4vw;
-	height: 9vw;
+	width: 4rem;
+	height: 9rem;
 	position: fixed;
-	bottom: 1vw;
-	right: 12.25vw;
+	bottom: 1rem;
+	right: 12.25rem;
 }
 
 .cloud1 {
-	width: 15vw;
-	height: 10vw;
+	width: 15rem;
+	height: 10rem;
 	position: absolute;
-	bottom: 67vw;
-	right: 23vw;
+	bottom: 67rem;
+	right: 23rem;
 }
 
 .cloud2 {
-	width: 17vw;
-	height: 12vw;
+	width: 17rem;
+	height: 12rem;
 	position: absolute;
-	bottom: 45vw;
-	left: 30vw;
+	bottom: 45rem;
+	left: 30rem;
 }
 
 .cloud3 {
-	width: 13vw;
-	height: 10vw;
+	width: 13rem;
+	height: 10rem;
 	position: absolute;
-	bottom: 60vw;
-	left: -3vw;
+	bottom: 60rem;
+	left: -3rem;
 }
 .ufo {
 	position: absolute;
-	top: 20vw;
-	left: 13vw;
+	top: 20rem;
+	left: 13rem;
 }
 
 .ufo img {
-	width: 1.5vw;
-	height: 1vw;
+	width: 1.5rem;
+	height: 1rem;
 }
 
 .welcome {
 	position: absolute;
 	left: 50%;
-	margin-left: -5vw;
-	bottom: 50vh;
+	margin-left: -5rem;
+	bottom: 30rem;
 }
 
 .road {
