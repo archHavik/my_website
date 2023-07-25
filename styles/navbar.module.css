@@ -1,7 +1,7 @@
 .navBar {
 	border:1px solid black;
 	background: black;
-	font-size: 75%;
+	font-size: 1vw + .75vh;
 }
 
 .navBar li {
