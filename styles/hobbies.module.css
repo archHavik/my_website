@@ -43,6 +43,8 @@
 }
 
 .bowling img {
+	width: 55vw;
+	height: 40vw;
 	border-radius: 50%;
 	margin-left: 5vw;
 	margin-right: 10vw;
@@ -71,6 +73,8 @@
 }
 
 .tech img {
+	width: 55vw;
+	height: 33vw;
 	border-radius: 10%;
 	margin-left: 10vw;
 	margin-right: 5vw;
@@ -97,6 +101,8 @@
 }
 
 .shooting img {
+	width: 75vw;
+	height: 30vw;
 	margin: auto;
 }
 
@@ -126,6 +132,8 @@
 }
 
 .mil img {
+	width: 50vw;
+	height: 45vw;
 	margin-left: 10vw;
 	margin-right: 5vw;
 }
@@ -151,6 +159,8 @@
 }
 
 .airsoft img {
+	width: 40vw;
+	height: 28vw;
 	margin: auto;
 	border-radius: 20%;
 }

@@ -20,6 +20,7 @@ export default function Home({ allPostsData }) {
 					</p>
 				</div>
 				<Image
+					className={careerStyles.arrow}
 					src="/images/arrow2.png"
 					width={100}
 					height={200}
@@ -30,6 +31,7 @@ export default function Home({ allPostsData }) {
 					</p>
 				</div>
 				<Image
+					className={careerStyles.arrow}
 					src="/images/arrow2.png"
 					width={100}
 					height={200}

@@ -44,7 +44,7 @@ function Animate(props) {
 				setShow(false);
 			}
 			
-			if (window.scrollY <= 250) {
+			if (window.scrollY <= 450) {
 				setMove(true);
 			}
 			else {
@@ -146,12 +146,12 @@ export default function Home() {
 						width={200}
 						height={150}
 					/>
-					<Image className={homeStyles.cloud4}
+					<Image className={homeStyles.cloud2}
 						src="/images/cloud3.png"
 						width={300}
 						height={200}
 					/>
-					<Image className={homeStyles.cloud7}
+					<Image className={homeStyles.cloud3}
 						src="/images/cloud4.png"
 						width={250}
 						height={175}
