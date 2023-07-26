@@ -4,8 +4,6 @@ import Layout, {siteTitle} from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import careerStyles from '../styles/career.module.css'
 
-import { getSortedPostsData } from '../lib/posts'
-
 export default function Home({ allPostsData }) {
 	return (
 		<Layout home>

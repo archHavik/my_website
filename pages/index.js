@@ -1,8 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 import Script from 'next/script'
-import Date from '../components/date'
 import Layout, {siteTitle} from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import homeStyles from '../styles/home.module.css'
@@ -10,7 +8,7 @@ import { useEffect, useState, useRef } from "react";
 import styled from "styled-components";
 
 const Div = styled.div`
-	opacity: ${({ animate }) => animate ? 1 : 0};
+	opacity: ${({ animate }) => animate ? 1 : 0} !important;
 	transition: opacity .5s;
 	`;
 	
